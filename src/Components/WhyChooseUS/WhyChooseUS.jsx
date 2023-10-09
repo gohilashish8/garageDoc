@@ -15,12 +15,12 @@ const WhyChooseUS = () => {
 
         <div className="flex flex-wrap justify-center flex-row  space-y-4 space-x-0 xs:space-x-4 lg:space-y-0 pt-20 pb-10">
           <div></div>
-          <div className=" w-[90%] xs:w-[90%] sm:w-[47%]  md:w-[47%] lg:w-[31%]  rounded-md ">
+          <div className=" w-[90%] xs:w-[90%] sm:w-[47%]  md:w-[47%] lg:w-[28%]  rounded-md ">
             <div className="relative">
               <div className="img-sec">
-                <img src={whyChooseUsImg1} alt="whyChooseUsImg" className="w-full md:w-[35px5] lg:w-auto" />
+                <img src={whyChooseUsImg1} alt="whyChooseUsImg" className="w-full" />
               </div>
-              <div className="absolute w-[91%] h-full text-white top-0 left-0">
+              <div className="absolute w-[100%] h-full text-white top-0 left-0">
                 <div className="text-center py-8 text-[22px] font-semibold">
                   Customer Satisfaction
                 </div>
@@ -31,12 +31,12 @@ const WhyChooseUS = () => {
               </div>
             </div>
           </div>
-          <div className=" w-[90%] xs:w-[90%] sm:w-[47%]  md:w-[47%] lg:w-[31%]  rounded-md ">
+          <div className=" w-[90%] xs:w-[90%] sm:w-[47%]  md:w-[47%] lg:w-[28%]  rounded-md ">
             <div className="relative lg:mt-[80px]">
               <div className="img-sec">
-                <img src={whyChooseUsImg2} alt="whyChooseUsImg" className="w-full md:w-[35px5] lg:w-auto" />
+                <img src={whyChooseUsImg2} alt="whyChooseUsImg" className="w-full" />
               </div>
-              <div className="absolute w-[91%] h-full text-white top-0 left-0">
+             <div className="absolute w-[100%] h-full text-white top-0 left-0">
                 <div className="text-center py-8 text-[22px] font-semibold">
                   Quality Products
                 </div>
@@ -48,12 +48,12 @@ const WhyChooseUS = () => {
               </div>
             </div>
           </div>
-          <div className=" w-[90%] xs:w-[90%] sm:w-[47%]  md:w-[47%] lg:w-[31%]  rounded-md ">
+          <div className=" w-[90%] xs:w-[90%] sm:w-[47%]  md:w-[47%] lg:w-[28%]  rounded-md ">
             <div className="relative">
               <div className="img-sec">
-                <img src={whyChooseUsImg3} alt="whyChooseUsImg" className="w-full md:w-[35px5] lg:w-auto" />
+                <img src={whyChooseUsImg3} alt="whyChooseUsImg" className="w-full" />
               </div>
-              <div className="absolute w-[91%] h-full text-white top-0 left-0">
+             <div className="absolute w-[100%] h-full text-white top-0 left-0">
                 <div className="text-center py-8 text-[22px] font-semibold">
                   Customer Satisfaction
                 </div>

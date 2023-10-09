@@ -9,6 +9,7 @@ const ServiceRightover = () => {
         viewBox="0 0 799 1311"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="w-full lg:w-auto"
       >
         <g opacity="0.2" filter="url(#filter0_f_1_193)">
           <ellipse cx="603.5" cy="655.5" rx="387.5" ry="439.5" fill="#5349C3" />

@@ -7,17 +7,17 @@ const Header = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <header className={`shadow-md p-2 z-[9999] sm:px-10 bg-[#0000009b] font-sans min-h-[70px] fixed top-0 w-full ${isMobileMenuOpen ? "black" : "bg-[#0000009b]"}`}>
+    <header className={`shadow-md p-2 z-[9999] sm:px-10 bg-[#000000c3] font-sans min-h-[70px] fixed top-0 w-full ${isMobileMenuOpen ? "black" : "bg-[#0000009b]"}`}>
       <div className="flex flex-wrap items-center gap-4 justify-between">
         <a href="#">
           <img src={headerLogo} alt="logo" />
         </a>
 
-        <div className="flex lg:order-1">
-          <button className="px-4 py-2 text-sm rounded-full font-bold text-primary border-2 border-primary bg-transparent transition-all ease-in-out duration-300 hover:bg-primary hover:text-white">
+        <div className="flex ">
+          {/* <button className="px-4 py-2 text-sm rounded-full font-bold text-primary border-2 border-primary bg-transparent transition-all ease-in-out duration-300 hover:bg-primary hover:text-white">
             Login
-          </button>
-          <button className="lg:hidden ml-7  " onClick={toggleMobileMenu}>
+          </button> */}
+          <button className="lg:hidden ml-7 mr-2 " onClick={toggleMobileMenu}>
             <svg
               className="w-7 h-7"
               fill="#fff"

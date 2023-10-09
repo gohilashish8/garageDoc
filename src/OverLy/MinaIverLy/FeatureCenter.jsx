@@ -9,6 +9,7 @@ const FeatureCenter = () => {
         viewBox="0 0 920 920"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="w-full lg:w-auto"
       >
         <g opacity="0.2" filter="url(#filter0_f_1_198)">
           <circle

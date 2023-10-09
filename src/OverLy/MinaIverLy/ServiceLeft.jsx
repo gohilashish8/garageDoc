@@ -9,6 +9,7 @@ const ServiceLeft = () => {
         viewBox="0 0 877 1338"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="w-full lg:w-auto"
       >
         <g opacity="0.2" filter="url(#filter0_f_1_195)">
           <circle

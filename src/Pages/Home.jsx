@@ -18,8 +18,9 @@ import ServiceRightGreen from '../OverLy/MinaIverLy/ServiceRightGreen'
 
 export const Home = () => {
   return (
+    <>
+    <Header/>
     <div className='relative z-0 w-[95%] xs:w-full mx-auto'>
-        <Header/>
         <Hero/>
         <GarageDocAppAb/>
         <Features/>
@@ -52,5 +53,6 @@ export const Home = () => {
           <ServiceRightGreen/>
         </div>
     </div>
+    </>
   )
 }

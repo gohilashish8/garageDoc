@@ -9,6 +9,7 @@ const ServiceRightGreen = () => {
         viewBox="0 0 1084 1084"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="w-full lg:w-auto"
       >
         <g opacity="0.2" filter="url(#filter0_f_1_3)">
           <circle
