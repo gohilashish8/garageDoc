@@ -14,35 +14,36 @@ const ImageSlider = () => {
   return (
     <>
       <Swiper
+      spaceBetween={20}
         loop={true}
         pagination={{
           dynamicBullets: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper p-1"
       >
-        <SwiperSlide>
+        <SwiperSlide className="py-2">
           <div className="mobile-image flex justify-center">
             <img src={aboutPhoneImg} alt="aboutPhoneImg" />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="py-2">
           <div className="mobile-image flex justify-center">
             <img src={aboutPhoneImg} alt="aboutPhoneImg" />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="py-2">
           <div className="mobile-image flex justify-center">
             <img src={aboutPhoneImg} alt="aboutPhoneImg" />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="py-2">
           <div className="mobile-image flex justify-center">
             <img src={aboutPhoneImg} alt="aboutPhoneImg" />
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="swiper-pagination swiper-pagination-bullets-dynamic swiper-pagination-bullets swiper-pagination-horizontal"></div>
+      <div className="custom-pagination-container"></div>
     </>
   );
 };

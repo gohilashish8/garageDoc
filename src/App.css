@@ -3,6 +3,7 @@
 :root {
   --main-color: #646bec;
   --body-bg-color: #000000;
+  --swiper-theme-color:#646bec !important;
 }
 
 body {
@@ -50,3 +51,17 @@ body {
   background: rgba(255, 255, 255, 0.14);
 }
 
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Customize margin as per your design */
+}
+
+.swiper-pagination-bullet {
+  margin: 0 5px; /* Adjust bullet spacing as needed */
+}
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+  bottom: 0px;
+}

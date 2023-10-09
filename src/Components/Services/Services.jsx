@@ -35,7 +35,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-[40%] lg:w-1/2 ">
+          <div className="w-full md:w-[40%] lg:w-1/2 mx-5 shadow-md  bg-[#636363] py-2 rounded-2xl ">
             <ImageSlider />
           </div>
         </div>
