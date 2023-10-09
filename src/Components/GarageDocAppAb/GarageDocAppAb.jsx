@@ -5,7 +5,7 @@ const GarageDocAppAb = () => {
   return (
     <section className="abouteImg w-full py-[20px] md:pt-[120px] md:pb-[60px] relative z-10">
       <div className="container mx-auto  ">
-        <div className="flex flex-col md:flex-row items-center lg:items-start ">
+        <div className="flex flex-col md:flex-row items-center ">
           <div className="w-full md:w-[40%] lg:w-1/2 ">
             <div className="mobile-image flex justify-center">
               <img src={aboutPhoneImg} alt="aboutPhoneImg" />
